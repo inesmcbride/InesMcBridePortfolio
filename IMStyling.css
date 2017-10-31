@@ -1,0 +1,131 @@
+body{
+/*  max-width: 100vw;*/
+}
+
+.homeImage{
+  margin-top: 25px;
+  height: 200px;
+/*  width: 90%;*/
+  overflow: hidden;
+}
+
+.row{
+  margin: 0px 15px 0px 15px;
+}
+.homeImage a img{
+  position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+/*  object-fit: fit;*/
+/*  object-position: bottom left;*/
+}
+
+.HItop{
+  margin-top: 60px;
+}
+
+.HIbottom{
+  margin-bottom: 20px;
+}
+
+.description{
+  padding: 20px 0px 20px 0px;
+}
+
+.head{ 
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+}
+
+.sub{
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding-top: 20px;
+  color: #333333;
+}
+
+.navBottom{
+  margin-bottom: 20px;
+}
+
+.navBottom a{
+  font-family: 'Chivo', sans-serif;
+  letter-spacing: 1px;
+  color: #e3e3e3
+}
+
+.nav-link{
+  padding-bottom: .04rem;
+}
+
+.navBottom .active{
+  color: black;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .description{
+    padding: 90px 70px 90px 70px;
+  }
+  .sub{
+    padding: 20px 55px 0px 55px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .homeImage{
+    height: 512px;
+  }
+  .HIbottom{
+  margin-bottom: 40px;
+  }
+  .description{
+    padding: 120px 70px 120px 70px;
+  }
+  .sub{
+    padding: 20px 55px 0px 55px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .homeImage{
+    height: 612px;
+    overflow: hidden;
+  }
+  .HIbottom{
+  margin-bottom: 40px;
+  }
+  .homeImage a img{
+    height: 100%;
+    width: auto;
+    left: 50%;
+/*    top: 50%;*/
+    -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+          transform: translate(-50%);
+  }
+  .workBody{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .description{
+    padding: 120px 10px 120px 10px;
+  }
+  .head{
+    padding: 0px 50px 0px 50px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
