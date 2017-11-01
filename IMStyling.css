@@ -2,6 +2,26 @@ body{
 /*  max-width: 100vw;*/
 }
 
+.navbar{
+  background-color: white !important;
+  font-family: 'Raleway', sans-serif;
+/*  margin: 0px 30px 0px 30px;  */
+  padding: 20px 30px 10px 30px;
+}
+
+.navbar .navbar-brand {
+  color: black;
+  font-size: 20px;
+}
+
+.navbar .navbar-nav a {
+    color: #777777;
+}
+
+.navbar .navbar-nav a:hover {
+    color: black;
+}
+
 .homeImage{
   margin-top: 25px;
   height: 200px;
@@ -21,10 +41,6 @@ body{
     bottom: 0;
 /*  object-fit: fit;*/
 /*  object-position: bottom left;*/
-}
-
-.HItop{
-  margin-top: 60px;
 }
 
 .HIbottom{
@@ -59,6 +75,59 @@ body{
 
 #credits{
   margin-bottom: 30px;
+}
+
+#aboutPhoto{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.aboutSection{
+  padding: 0px 30px 0px 30px;
+}
+
+.headAbout{
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  margin-top: 30px;
+}
+
+.subAbout{
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 200;
+  text-transform: uppercase;
+/*  padding-top: 20px;*/
+  color: #333333;
+}
+
+.subDescriptionAbout{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 10px 0px 10px 0px;
+}
+
+.btn-outline-primary{
+  font-family: 'Raleway', sans-serif;;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #1280a8;
+  border-color: #1280a8;
+}
+
+.btn-outline-primary:hover{
+  color: white;
+  background-color: #1280a8;
+  border-color: #1280a8;
+}
+
+.aboutButtons{
+/*  margin: 40px 0px 30px 0px;*/
+}
+
+.touchButton{
+  margin-left: 50px;
 }
 
 .projectImages, .projectImagesEnd{
@@ -127,6 +196,10 @@ body{
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .navbar{
+  padding: 30px 50px 10px 50px;
+}
+
   .homeImage{
     height: 512px;
   }
@@ -158,10 +231,17 @@ body{
   .navBottom{
   margin-bottom: 80px;
 }
+  .aboutButtons{
+  margin: 60px 0px 30px 0px;
+}
+
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .navbar .navbar-brand{
+    font-size: 24px;
+  }
   .homeImage{
     height: 612px;
     overflow: hidden;
@@ -181,6 +261,10 @@ body{
     margin-left: 50px;
     margin-right: 50px;
   }
+  .aboutSection{
+    padding-left: 60px;
+    padding-right: 0px;
+  }
   .description{
     padding: 120px 10px 120px 10px;
   }
@@ -198,6 +282,10 @@ body{
 }
   .gitlink a{
     font-size: 30px;
+}
+  .aboutButtons{
+    margin: 60px 0px 30px 0px;
+    margin-left: 50%;
 }
 }
 
