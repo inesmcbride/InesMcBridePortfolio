@@ -44,20 +44,54 @@ body{
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
   letter-spacing: 2px;
-  font-weight: 100;
+  font-weight: 200;
   text-transform: uppercase;
   padding-top: 20px;
   color: #333333;
 }
 
+.subDescription{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  margin: 30px 0px 30px 0px;
+}
+
+#credits{
+  margin-bottom: 30px;
+}
+
+.projectImages, .projectImagesEnd{
+  margin-bottom: 40px;
+}
+
+#gitMark {
+  margin: 40px 0px;
+}
+
+.gitlink{
+  margin: 30px 0px 30px 0px;
+}
+
+.gitlink a{
+  font-size: 26px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: #6d7d97;
+}
+
 .navBottom{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+#navMargin{
+  margin-left: 0px;
 }
 
 .navBottom a{
   font-family: 'Chivo', sans-serif;
-  letter-spacing: 1px;
-  color: #e3e3e3
+  color: #e3e3e3;
+  line-height: 1;
 }
 
 .nav-link{
@@ -77,6 +111,18 @@ body{
   .sub{
     padding: 20px 55px 0px 55px;
   }
+  .subDescription{
+  margin: 70px 60px 70px 60px;
+}
+  .projectImagesEnd{
+  margin-bottom: 60px;
+}
+  .navBottom{
+  margin-bottom: 50px;
+}
+  #gitMark{
+    margin-top: 70px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -93,6 +139,25 @@ body{
   .sub{
     padding: 20px 55px 0px 55px;
   }
+  .subDescription{
+  margin: 70px 90px 90px 90px;
+}
+.projectImages, .projectImagesEnd{
+  margin-bottom: 70px;
+}
+  #gitArt{
+    margin: 30px 0px 0px 0px;
+  }
+  
+  .gitlink{
+  margin: 30px 0px 60px 0px;
+}
+  .gitlink a{
+  font-size: 38px;
+}
+  .navBottom{
+  margin-bottom: 80px;
+}
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -108,7 +173,6 @@ body{
     height: 100%;
     width: auto;
     left: 50%;
-/*    top: 50%;*/
     -webkit-transform: translate(-50%);
       -ms-transform: translate(-50%);
           transform: translate(-50%);
@@ -123,9 +187,27 @@ body{
   .head{
     padding: 0px 50px 0px 50px;
   }
+  .subDescription{
+    margin: 70px 140px 90px 140px;
+}
+  .projectImages, .projectImagesEnd{
+    margin-bottom: 80px;
+}
+  .gitlink{
+    margin: 30px 0px 70px 0px;
+}
+  .gitlink a{
+    font-size: 30px;
+}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-
+  .gitlink{
+    margin: 30px 0px 90px 0px;
+}
+  .subDescription{
+    font-size: 28px;
+    margin: 60px 160px 90px 160px;
+}
 }
