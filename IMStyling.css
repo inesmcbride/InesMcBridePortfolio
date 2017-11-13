@@ -5,7 +5,6 @@ body{
 .navbar{
   background-color: white !important;
   font-family: 'Raleway', sans-serif;
-/*  margin: 0px 30px 0px 30px;  */
   padding: 20px 30px 10px 30px;
 }
 
@@ -25,15 +24,8 @@ body{
 .homeImage{
   margin-top: 10px;
   height: 200px;
-/*  width: 90%;*/
   overflow: hidden;
 }
-
-/*
-.row{
-  margin: 0px 15px 0px 15px;
-}
-*/
 
 .homeImage a img{
   position: absolute;
@@ -42,12 +34,14 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-/*  object-fit: fit;*/
-/*  object-position: bottom left;*/
 }
 
 .HIbottom{
   margin-bottom: 20px;
+}
+
+.navbar-collapse .nav-link{
+  text-align: center;
 }
 
 .overlay {
@@ -64,7 +58,7 @@ body{
 }
 
 .homeImage:hover .overlay {
-  opacity: 0.7;
+  opacity: 0.85;
 }
 
 .text {
