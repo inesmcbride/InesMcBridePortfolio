@@ -26,8 +26,21 @@ body{
   height: 200px;
   overflow: hidden;
 }
+.homeImagePM{
+  margin-top: 10px;
+  height: 200px;
+  overflow: hidden;
+}
 
 .homeImage a img{
+  position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.homeImagePM a img{
   position: absolute;
     margin: auto;
     top: 0;
@@ -236,6 +249,9 @@ body{
   .homeImage{
     height: 512px;
   }
+  .homeImagePM{
+    height: 512px;
+  }
   .HIbottom{
   margin-bottom: 40px;
   }
@@ -279,6 +295,10 @@ body{
     height: 612px;
     overflow: hidden;
   }
+  .homeImagePM{
+    height: 612px;
+    overflow: hidden;
+  }
   .HIbottom{
   margin-bottom: 40px;
   }
@@ -290,6 +310,13 @@ body{
       -ms-transform: translate(-50%);
           transform: translate(-50%);
   }
+  .homeImagePM a img{
+    height: 100%;
+    width: auto;
+    left: -100%;
+    margin-right: 0px;
+  }
+
   .workBody{
     margin-left: 50px;
     margin-right: 50px;
