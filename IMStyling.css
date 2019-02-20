@@ -187,6 +187,10 @@ body{
   color: #6d7d97;
 }
 
+.pagelink a{
+  color: #6d7d97;
+}
+
 .navBottom{
   margin-bottom: 30px;
 }
