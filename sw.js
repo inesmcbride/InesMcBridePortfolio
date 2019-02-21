@@ -28,7 +28,7 @@ self.addEventListener('install', event => {
 			'./Images/ParkMe/DemoVideo.mp4',
 			'./Images/ParkMe/FirstFrame.jpg',
 			'./Images/ParkMe/How.jpg',
-			'./Images/ParkMe/DemoVideo.mp4'
+			'./Images/ParkMe/DemoVideo.mp4',
 			'./Images/ParkMe/Interaction.jpg',
 			'./Images/ParkMe/Mockup2.jpg',
 			'./Images/ParkMe/Mockup3.jpg',
