@@ -15,7 +15,7 @@ self.addEventListener('install', event => {
 			'./Memory-Game.html',
 			'./Restaurant-review.html',
 			'./About.html',
-			// 'Images/ALHome.jpg',
+			'./Images/ALHome.jpg',
 			// 'Images/FPHome',
 			// 'Images/MGHome.jpg',
 			// 'Images/MGHomev2.jpg',
