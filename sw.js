@@ -4,7 +4,6 @@ let mainCacheName = 'ines-mcbride-portfolio-v1';
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(mainCacheName).then (cache => {
-    	console.log('it worked');
 		return cache.addAll([
 			'./',
 			'./index.html',
@@ -55,10 +54,9 @@ self.addEventListener('install', event => {
 			// 'Images/artlens/Process.jpg',
 			// 'Images/artlens/Process2.jpg',
 			'./js/register.js',
-			'./IMStyling.css',
-			'https://fonts.gstatic.com/s/roboto/v15/2UX7WLTfW3W8TclTUvlFyQ.woff',
-			'https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOD8E0i7KZn-EPnyo3HZu7kw.woff'
+			'./IMStyling.css'
 		])
+		.then(console.log('it worked'))
 		.catch(error => {
 			console.log(error);
 		})
