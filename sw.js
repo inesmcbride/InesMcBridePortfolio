@@ -72,7 +72,7 @@ self.addEventListener('activate', (event => {
     caches.keys().then(function(cacheNames){
     return Promise.all(
     	cacheNames.filter(function(cacheName){
-    		return cacheName.startsWith('restaurant-review') &&
+    		return cacheName.startsWith('ines-mcbride-portfolio') &&
     		cacheName != mainCacheName;
     	}).map(function(cacheName){
     		return caches.delete(cacheName);
